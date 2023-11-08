@@ -88,7 +88,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='dojo'>
-      <pose>2.88636 -5.25892 0 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
       <link name='Wall_10'>
         <pose>0 -7.425 0 0 -0 3.14159</pose>
         <visual name='Wall_10_Visual_0'>
