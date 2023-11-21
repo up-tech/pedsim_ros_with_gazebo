@@ -161,9 +161,16 @@ void Simulator::runSimulation() {
             SCENE.agents[agent->getId()] = robot_;
             break;
           }
-       }  
+       }
 
       SCENE.moveAllAgents();
+
+      //for perdiction_num
+      //  get agents groups robot_position obstacles wayponits
+      //  store positions to the list
+      //  updateRobotPositionFromList();
+      //  virtually move all agents
+      //publish future position
 
       publishAgents();
       publishGroups();
